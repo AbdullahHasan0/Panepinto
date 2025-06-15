@@ -75,12 +75,12 @@ function Header() {
               {name}
             </NavLink>
           ))}
-          <a
-            href="/contact"
+          <Link
+            to ="/contact"
             className="bg-black text-white rounded-full hover:bg-gray-800 transition-colors px-6 py-2 font-manrope font-light text-[16px]"
           >
             Contact Us
-          </a>
+          </Link>
         </div>
       )}
     </header>
