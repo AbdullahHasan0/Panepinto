@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import heroImage from '../assets/hero.jpg'; // Adjust the path as needed
 
 function Hero() {
@@ -39,16 +40,16 @@ function Hero() {
 
           {/* CTA Buttons */}
           <div className="mt-6 flex gap-4 flex-wrap">
-            <a href="/contact">
-            <button className="bg-black text-white rounded-full px-6 py-3 text-sm font-manrope font-normal tracking-[-0.04em] hover:bg-gray-800 transition-colors">
-              Book an Appointment
-            </button>
-            </a>
-            <a href="/services">
-            <button className="bg-white border border-black text-black rounded-full px-6 py-3 text-sm font-manrope font-normal tracking-[-0.04em] hover:bg-gray-100 transition-colors">
-              Explore Services
-            </button>
-            </a>
+            <Link to="/contact">
+              <button className="bg-black text-white rounded-full px-6 py-3 text-sm font-manrope font-normal tracking-[-0.04em] hover:bg-gray-800 transition-colors">
+                Book an Appointment
+              </button>
+            </Link>
+            <Link to="/services">
+              <button className="bg-white border border-black text-black rounded-full px-6 py-3 text-sm font-manrope font-normal tracking-[-0.04em] hover:bg-gray-100 transition-colors">
+                Explore Services
+              </button>
+            </Link>
           </div>
 
           {/* Ratings Box */}
