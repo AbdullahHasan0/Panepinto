@@ -29,7 +29,7 @@ function Services() {
       Dr.Panepinto. Face-to-face or virtual options are 
       available. This service is available to residents in all US 
       states (and outside).`}
-      image="assets\articles.jpg"
+      image="/assets/articles.jpg"
       />
 
       <LeftTextRightImage
@@ -37,7 +37,7 @@ function Services() {
       description={`For current practitioners and those seeking licensure. 
       Face-to-face or virtual supervision options are 
       available`}
-      image="assets\chinese.jpg"
+      image="/assets/chinese.jpg"
       />
 
       <LeftImageRightText
@@ -47,7 +47,7 @@ function Services() {
       worked with elite and competitive athletes inseveral sports from amateur to professional. He has 
       also worked with performers in the arts to improve 
       mental states for optimal performance.`}
-      image="assets\articles.jpg"
+      image="/assets/articles.jpg"
       />
 
       <LeftTextRightImage
@@ -58,7 +58,7 @@ function Services() {
       sports from amateur to professional. He has also worked 
       with performers in the arts to improve mental states for 
       optimal performance.`}
-      image="assets\jane.jpg"
+      image="/assets/jane.jpg"
       />
 
       <LeftImageRightText
@@ -68,7 +68,7 @@ function Services() {
       worked with elite and competitive athletes inseveral sports from amateur to professional. He has 
       also worked with performers in the arts to improve 
       mental states for optimal performance.`}
-      image="assets\articles.jpg"
+      image="/assets/articles.jpg"
       />
 
       <LeftTextRightImage
@@ -82,7 +82,7 @@ function Services() {
       As a Licensed Professional Counselor, I will provide you 
       with a billing statement to submit to your insurance 
       provider. Fees are to be paid at time of service.`}
-      image="assets\with_dog.jpg"
+      image="/assets/with_dog.jpg"
       />
 
       <LeftImageRightText
@@ -96,7 +96,7 @@ function Services() {
       As a Licensed Professional Counselor, I will provide you 
       with a billing statement to submit to your insurance 
       provider. Fees are to be paid at time of service.`}
-      image="assets\articles.jpg"
+      image="/assets/articles.jpg"
       
       />
 
@@ -111,7 +111,7 @@ function Services() {
       As a Licensed Professional Counselor, I will provide you 
       with a billing statement to submit to your insurance 
       provider. Fees are to be paid at time of service.`}
-      image="assets\alice.jpg"
+      image="/assets/alice.jpg"
       />
       <ImageBanner/>
       <CTA/>
