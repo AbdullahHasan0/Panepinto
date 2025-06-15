@@ -10,7 +10,7 @@ import Header from '../components/Header';
 
 function LandingPage() {
   return (
-    <div className="bg-gray-50">
+    <div className="bg-white">
       <Header />
       <Hero />
       {/* Author Introduction Section */}
