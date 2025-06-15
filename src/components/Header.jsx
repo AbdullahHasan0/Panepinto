@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -48,12 +49,12 @@ function Header() {
           </nav>
 
           {/* Desktop contact button - hidden on small screens */}
-          <a
-            href="/contact"
+          <Link
+            to="/contact"
             className="hidden sm:flex md:flex ml-4 bg-black text-white rounded-full hover:bg-gray-800 transition-colors items-center justify-center w-[120px] md:w-[138px] h-[40px] md:h-[44px] font-manrope font-light text-[16px] md:text-[18px] leading-[18px] tracking-[-0.02em]"
           >
             Contact Us
-          </a>
+          </Link>
         </div>
       </div>
 
