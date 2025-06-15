@@ -1,4 +1,7 @@
 import React from 'react';
+import pinto from '../assets/pinto.jpg';
+import chinese from '../assets/chinese.jpg';
+import withDog from '../assets/with_dog.jpg';
 
 function AuthorIntroduction() {
   return (
@@ -6,12 +9,10 @@ function AuthorIntroduction() {
       
       {/* Left Div */}
       <div className="flex flex-col max-w-[610px] w-full">
-        {/* Main Heading */}
         <div className="text-black font-manrope text-[24px] sm:text-[32px] md:text-[40px] lg:text-[48px] leading-[28px] sm:leading-[40px] md:leading-[50px] lg:leading-[60px] font-semibold tracking-tight mb-4 sm:mb-6">
           Meet with your Dr. John Panepinto.
         </div>
 
-        {/* Gray Box with Button */}
         <div className="w-full h-[100px] sm:h-[120px] bg-gray-100 flex items-center justify-between px-4 sm:px-6 rounded-md mb-4 sm:mb-6">
           <p className="text-[18px] sm:text-[22px] md:text-[26px] lg:text-[30px] text-black font-medium font-manrope leading-[24px] sm:leading-[28px] md:leading-[32px] lg:leading-[34px]">
             A Licensed Professional Nationally
@@ -25,7 +26,6 @@ function AuthorIntroduction() {
           </button>
         </div>
 
-        {/* 3 Light Text Lines */}
         <div className="text-black font-manrope space-y-3 sm:space-y-4 mt-2">
           <p className="text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] leading-[18px] sm:leading-[22px] md:leading-[26px] lg:leading-[28px]">
             ✓ Personalized 1-on-1 sessions with certified therapists
@@ -40,29 +40,29 @@ function AuthorIntroduction() {
       </div>
 
       {/* Right Div */}
-      <div className="relative flex justify-center lg:justify-start gap-3 sm:gap-4 w-full max-w-[650px]">
-        {/* Vertical Image on Left */}
+      <div className="relative flex w-full max-w-[650px] gap-3 sm:gap-4">
+        {/* Vertical image */}
         <img
-          src="src/assets/pinto.jpg"
+          src={pinto}
           alt="Vertical"
-          className="w-[240px] sm:w-[280px] md:w-[300px] h-auto object-cover rounded-lg flex-shrink-0"
+          className="w-[45%] lg:w-[240px] md:w-[220px] h-auto object-cover rounded-lg"
         />
 
-        {/* Two stacked images on the right */}
-        <div className="flex flex-col justify-between space-y-3 sm:space-y-4">
+        {/* 2 stacked images */}
+        <div className="flex flex-col gap-3 sm:gap-4 w-[55%]">
           <img
-            src="src/assets/chinese.jpg"
+            src={chinese}
             alt="Top Right"
-            className="w-[240px] sm:w-[280px] md:w-[300px] h-[100px] sm:h-[200px] md:h-[260px] object-cover rounded-lg"
+            className="w-full h-[150px] sm:h-[200px] md:h-[240px] lg:h-[260px] object-cover rounded-lg"
           />
           <img
-            src="src/assets/with_dog.jpg"
+            src={withDog}
             alt="Bottom Right"
-            className="w-[240px] sm:w-[280px] md:w-[300px] h-[100px] sm:h-[200px] md:h-[260px] object-cover rounded-lg"
+            className="w-full h-[150px] sm:h-[200px] md:h-[240px] lg:h-[260px] object-cover rounded-lg"
           />
         </div>
 
-        {/* Transparent overlay box */}
+        {/* Overlay */}
         <div
           className="absolute flex flex-col items-center justify-center text-white text-center border-[4px] border-white rounded-[15px]"
           style={{
