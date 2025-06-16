@@ -5,7 +5,7 @@ function ArticleCard({ id, title, description }) {
   return (
     <div
       role="article"
-      className="relative bg-white p-4 flex flex-col justify-between w-full max-w-[375px] min-h-[200px] mx-auto"
+      className="relative bg-white p-3 sm:p-4 md:p-6 lg:p-8 flex flex-col w-full max-w-[400px] min-h-[200px] mx-auto"
     >
       {/* Circle Cluster */}
       <div className="absolute top-6 left-2 w-6 h-6">
@@ -16,14 +16,14 @@ function ArticleCard({ id, title, description }) {
         </div>
       </div>
 
-      {/* Title + Button */}
-      <div className="relative flex items-center justify-between">
-        <h3 className="font-manrope font-normal text-base sm:text-lg md:text-xl lg:text-2xl leading-tight text-black tracking-[-0.03em] pl-6 sm:pl-11 pr-6 sm:pr-14 max-w-[180px] sm:max-w-none">
+      {/* Title + Button container */}
+      <div className="flex items-start justify-between gap-2 pl-8 sm:pl-10 md:pl-12 pr-2">
+        <h3 className="font-manrope font-normal text-sm sm:text-base md:text-lg lg:text-xl leading-4 sm:leading-5 md:leading-6 lg:leading-tight text-black tracking-[-0.03em]">
           {title}
         </h3>
         <Link
           to={`/articles/${id}`}
-          className="absolute right-2 sm:right-0 top-3.5 bg-emerald-200 rounded-full font-semibold text-lg sm:text-xl md:text-2xl flex items-center justify-center hover:bg-gray-400 transition focus:outline-none focus:ring-2 focus:ring-gray-400"
+          className="bg-emerald-200 rounded-full font-semibold text-lg sm:text-xl md:text-2xl flex items-center justify-center hover:bg-gray-400 transition focus:outline-none focus:ring-2 focus:ring-gray-400 shrink-0"
           style={{
             width: '44px',
             height: '44px',
@@ -38,11 +38,11 @@ function ArticleCard({ id, title, description }) {
       </div>
 
       {/* Description + Line */}
-      <div className="pl-6 sm:pl-11">
-        <p className="mt-2 sm:mt-4 text-xs sm:text-sm md:text-base leading-snug tracking-[-0.03em] text-black font-manrope line-clamp-3 max-w-[220px] sm:max-w-[260px] md:max-w-[300px]">
+      <div className="pl-8 sm:pl-10 md:pl-12 pr-2">
+        <p className="mt-1 sm:mt-2 md:mt-3 text-[10px] sm:text-xs md:text-sm lg:text-base leading-4 sm:leading-5 md:leading-snug tracking-[-0.03em] text-black font-manrope line-clamp-3">
           {description}
         </p>
-        <div className="mt-2 sm:mt-4 w-[220px] sm:w-[260px] md:w-[300px] h-0.5 bg-gray-300"></div>
+        <div className="mt-1 sm:mt-2 md:mt-3 w-full h-0.5 bg-gray-300"></div>
       </div>
     </div>
   );

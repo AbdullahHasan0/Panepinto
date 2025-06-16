@@ -146,24 +146,26 @@ function Resources() {
     <div className="bg-white">
       <Header />
 
-      <BooksSectionHeading/>
-      <ResourcesDescription
-      text = "Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2...Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2....Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2....Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2......Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2.....Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2......Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2......Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2....Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2.......Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2.............Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2....Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2."
-      />
-
-      <BookResource
-      books={books}
-      />
-
-      <ArticleSectionHeading/>
+       <div className="w-full max-w-[1300px] mx-auto px-6 sm:px-10 md:px-16 lg:px-20 xl:px-24">
       
+      {/* Books Section */}
+      <BooksSectionHeading />
+
       <ResourcesDescription
-      text='Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2...Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2....Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2....Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2......Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2.....Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2......Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2......Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2....Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2.......Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2.............Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2....Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2.'
+        text="Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2...Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2....Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2....Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2......Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2.....Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2......Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2......Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2....Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2.......Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2.............Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2....Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2."
       />
 
-      <ArticleGrid
-      articles={articles}
+      <BookResource books={books} />
+
+      {/* Articles Section */}
+      <ArticleSectionHeading />
+
+      <ResourcesDescription
+        text="Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2...Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2....Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2....Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2......Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2.....Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2......Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2......Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2....Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2.......Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2.............Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2....Relax, none of this is your fault, Don’t stop, what you’re afraid of won’t happen.xxxx2."
       />
+
+      <ArticleGrid articles={articles} />
+    </div>
 
       <ImageBanner/>
 

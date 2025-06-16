@@ -17,7 +17,7 @@ function BookResource({ books = [] }) {
 
   return (
     <section className="bg-white w-full pt-[50px] pb-10">
-      <div className="w-full max-w-[1300px] px-4 mx-auto">
+      <div className="w-full max-w-[1300px]  mx-auto">
         {validBooks.length > 0 ? (
           <div className={`grid ${columnClass} gap-10 justify-center`}>
             {validBooks.map((book, index) => (

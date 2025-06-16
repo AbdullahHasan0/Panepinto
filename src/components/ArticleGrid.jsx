@@ -11,7 +11,7 @@ function ArticleGrid({ articles }) {
 
   return (
     <section className="bg-white w-full pt-8 sm:pt-10 md:pt-12 pb-4 sm:pb-6 md:pb-10 mt-10 sm:mt-14 md:mt-20">
-      <div className="w-full max-w-[1300px] mx-auto px-4 sm:px-6">
+      <div className="w-full max-w-[1300px] mx-auto">
         <div className={`grid ${columnClass} gap-6 sm:gap-8 md:gap-10 w-full`}>
           {articles.map((article) => (
             <ArticleCard key={article.id} {...article} />

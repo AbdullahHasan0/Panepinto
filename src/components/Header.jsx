@@ -30,7 +30,7 @@ function Header() {
 
           {/* Desktop navigation */}
           <nav
-            className="hidden md:flex gap-6 lg:gap-8 font-merriweather text-[18px] md:text-[20px] lg:text-[22px] leading-[22px]"
+            className="hidden md:flex gap-6 lg:gap-8 font-manrope text-[18px] md:text-[20px] lg:text-[22px] leading-[22px]"
             aria-label="Main navigation"
           >
             {['Home', 'About', 'Services', 'Resources'].map((name) => (
@@ -67,7 +67,7 @@ function Header() {
               to={`/${name.toLowerCase() === 'home' ? '' : name.toLowerCase()}`}
               onClick={() => setMenuOpen(false)}
               className={({ isActive }) =>
-                `font-merriweather font-normal text-[18px] ${
+                `font-manrope font-normal text-[18px] ${
                   isActive ? 'text-black' : 'text-gray-600'
                 }`
               }
