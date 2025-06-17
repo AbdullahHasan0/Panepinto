@@ -39,6 +39,7 @@ function Services() {
       Face-to-face or virtual supervision options are 
       available`}
       image="../assets/chinese.jpg"
+      reverseOnLarge = {true}
       />
 
       <LeftImageRightText
@@ -60,6 +61,7 @@ function Services() {
       with performers in the arts to improve mental states for 
       optimal performance.`}
       image="../assets/jane.jpg"
+      reverseOnLarge = {true}
       />
 
       <LeftImageRightText
@@ -84,6 +86,7 @@ function Services() {
       with a billing statement to submit to your insurance 
       provider. Fees are to be paid at time of service.`}
       image="../assets/with_dog.jpg"
+      reverseOnLarge = {true}
       />
 
       <LeftImageRightText
@@ -113,6 +116,7 @@ function Services() {
       with a billing statement to submit to your insurance 
       provider. Fees are to be paid at time of service.`}
       image="../assets/alice.jpg"
+      reverseOnLarge = {true}
       />
       <ImageBanner/>
       <CTA/>

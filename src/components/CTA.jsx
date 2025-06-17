@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function CTA() {
   return (
-    <section className="w-full h-[162px] bg-[#AAF4D3] flex flex-col sm:flex-row items-center justify-between px-4 sm:px-10 font-manrope">
+    <section className="w-full bg-[#AAF4D3] flex flex-col sm:flex-row items-center justify-between px-4 sm:px-10 py-6 sm:py-10 md:py-12 font-manrope">
       
       <h2 className="text-[24px] sm:text-[32px] md:text-[36px] font-bold text-black leading-tight tracking-[-0.02em] text-center sm:text-left mb-4 sm:mb-0">
         Tell the problem, Don’t keep it to yourself!
